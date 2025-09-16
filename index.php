@@ -20,13 +20,12 @@
         
         <label class='label' for='name'>Name:</label>
         <input class='input' type="text" name="username" placeholder="Enter Username">
-        <br>
-        <br>
         <label class='label' for='password'>Password:</label>
         <input class='input' type="password" name="password" placeholder="Password">
-        <br>
-        <br>
         <input class='button' type="submit" value="Log in">
+        <span>Don't have an account?:
+          <a id="link" href="register.php">register</a>
+        </span>
       </div>
     </form>
   </body>
